@@ -1,0 +1,69 @@
+@import '../../../styles/scss/foundation/_all.scss';
+
+.signup {
+  background: $primary-bg-color;
+  width: 100%;
+  height: $full-screen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .title {
+    h1 {
+       color: $info-text-color-900;
+       span {
+        font-weight: 900;
+       }
+    }
+  }
+  
+  
+  form {
+    width: 430px;
+
+    .inputGroup {
+      margin-top: 20px;
+      
+      input {
+        width: $full-width;
+        box-sizing: border-box;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid  $btn-secondary-bg-color;
+
+        &:focus {
+          outline: 0;
+          border: 2px solid $btn-secondary-bg-color;
+        }
+      }
+    }
+
+
+    button {
+     background: $btn-secondary-bg-color;
+     color: $btn-secondary-color;
+     width: $full-width;
+     padding: 15px 0;
+     border: none;
+     border-radius: 5px;
+    }
+  }
+
+  p {
+    font-size: $fs-lg;
+    a {
+      color: $info-text-color-900;
+    }
+  }
+
+ 
+}
+
+
+// $primary-color: $header-text-color;
+
+// :export {
+//   primaryColor: $btn-primary-bg-color;
+// }

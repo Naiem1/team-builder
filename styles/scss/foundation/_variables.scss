@@ -15,14 +15,15 @@
 $blue: #0a6af6;
 $blue-100: #283163;
 $ultramarine-blue: #4c54f8;
+$blue-900: #5242F0;
 
 $light: #ffffff;
 $light-200: #FFF8F8;
 $light-300: #fff9f9;
 $light-500: #f4f1f2;
-
 $gray-500: #6C7172;
 $gray-900: #202020;
+$gray-dark-100: #606060;
 
 $dark: #000000;
 $gray-500: rgba(32, 32, 32, 0.6);
@@ -39,6 +40,11 @@ $fs-xl: 24px;
 
 $h-1: 32px;
 $h-2: 24px;
+
+
+/* Width and height */
+$full: 100%;
+$screen: 100vh;
 
 /*=============================================
 =            Breakpoints                    =
