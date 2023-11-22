@@ -1,5 +1,14 @@
-$primary-color: #64ff00;
+
+@import '../styles/scss/foundation/all';
+
+// $primary-color: #64ff00;
  
+// :export {
+//   primaryColor: $primary-color;
+// }
+
+$primary-color: $header-text-color;
+
 :export {
-  primaryColor: $primary-color;
+  primaryColor: $btn-primary-bg-color;
 }

@@ -1,0 +1,87 @@
+/*=============================================
+=            #variables                     =
+=============================================*/
+
+/**
+ *
+ * TABLE OF CONTENT
+ *
+ * COLORS
+ */
+
+/*=============================================
+ =            Colors                          =
+ =============================================*/
+$blue: #0a6af6;
+$blue-100: #283163;
+$ultramarine-blue: #4c54f8;
+
+$light: #ffffff;
+$light-200: #FFF8F8;
+$light-300: #fff9f9;
+$light-500: #f4f1f2;
+
+$gray-500: #6C7172;
+$gray-900: #202020;
+
+$dark: #000000;
+$gray-500: rgba(32, 32, 32, 0.6);
+/*=============================================
+ =            Typography                          =
+ =============================================*/
+
+/* Font Size */
+$fs-base: 16px;
+$fs-lg: 20px;
+$fs-xl: 24px;
+
+/* Heading font size */
+
+$h-1: 32px;
+$h-2: 24px;
+
+/*=============================================
+=            Breakpoints                    =
+=============================================*/
+
+// 320px — 480px: Mobile devices
+// 481px — 768px: iPads, Tablets
+// 769px — 1024px: Small screens, laptops
+// 1025px — 1200px: Desktops, large screens
+// 1201px and more —  Extra large screens, TV
+
+$breakpoints: (
+  xs: 320px,
+  sm: 481px,
+  md: 769px,
+  lg: 1025px,
+  xl: 1201px,
+);
+
+
+// Screen sizes
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$screen-xxl: 1300px;
+$screen-full: 1400px;
+
+// Colors
+$textColor: #42474C;
+$textLight1Color: #6b7177;
+
+$primaryDark2Color: #002e25;
+$primaryDark1Color: #004C3F;
+$primaryColor: #008060;
+$primaryLight1Color: #C1F0D0;
+$primaryLight2Color: #EFFCFA;
+
+$secondaryColor: #906509;
+$secondaryLight1Color: #FBF7ED;
+$secondaryLight2Color: #FFF8F6;
+$secondaryLight3Color: #E2E6DC;
+$secondaryLight4Color: #EDE8DB;
+
+$warningColor: #C43256;
+$warningLight1Color: #c432571f;
