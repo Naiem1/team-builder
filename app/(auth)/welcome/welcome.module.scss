@@ -1,0 +1,19 @@
+@import '../../../styles/scss/foundation/all';
+
+.welcome {
+  height: $full-screen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: $secondary-text-color;
+}
+
+.button {
+  background-color: $btn-secondary-bg-color;
+  margin: 0 15px;
+  &:hover {
+    background: rgb(119, 8, 231);
+  }
+}

@@ -1,0 +1,15 @@
+@import '../../../../styles/scss/foundation/all';
+
+
+.Button {
+  background-color: $btn-primary-bg-color;
+  color: $btn-primary-color;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: $fs-lg;
+  font-weight: 500;
+}
+
+
+
