@@ -1,0 +1,34 @@
+@import './variables';
+/*=============================================
+=            Global Text color            =
+=============================================*/
+// $primary-bg-color: var(--primary-bg-color, $light) !default;
+// $secondary-bg-color: var(--secondary-bg-color, $light-200) !default;
+
+// $primary-text-color: var(--primary-text-color, $dark) !default;
+// $secondary-text-color: var(--secondary-text-color, $grey-900) !default;
+// $info-text-color: var(--info--text-color, $grey-500) !default;
+
+// $header-text-color: var(--header-text-color, $blue-100) !default;
+// $header-bg-color: var(--header-bg-color, $light-pink) !default;
+
+// $card-text-color: var(--body-text-color, $dark) !default;
+
+// /** Button */
+// $btn-primary-color: var(--btn-primary-color, $light) !default;
+// $btn-primary-bg-color: var(--btn-primary-bg-color, $blue) !default;
+
+$primary-bg-color: $light;
+$secondary-bg-color: $light-200;
+
+$primary-text-color: $dark;
+$secondary-text-color: $gray-900;
+$info-text-color: $gray-500;
+
+$header-text-color: $blue-100;
+$header-bg-color: $light-300;
+
+$card-text-color: $dark;
+
+$btn-primary-color: $light;
+$btn-primary-bg-color: $blue;
